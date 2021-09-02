@@ -1,0 +1,22 @@
+<suite name="Suite" parallel="none">
+
+  	<parameter name="env" value="prod"/>   
+  	<parameter name="url" value="SuperHeros_SuperVillain_Url"/> 
+  	<parameter name="Broswer" value="chrome"/> 
+   	<test name="Test" parallel="none">> 
+  	<classes>    
+    	<class name= "com.cba.covidgame.Regression_WEB.CBA_Web"/>
+   		<methods>
+     	<Test>
+     		<!-- For Email Scripts Login Manually And Run Delete User Info -->
+     		<include name="CovidGame"/>
+     		 		   		
+        </Test>
+    	</methods>      	  
+  	</classes>      
+ 	</test>   	
+	<listeners>
+        <listener class-name="com.testng.listeners.TestExecutionListener"/>
+        <listener class-name="com.testng.listeners.TestInvokeListener"/>
+    </listeners>
+</suite> <!-- Suite -->

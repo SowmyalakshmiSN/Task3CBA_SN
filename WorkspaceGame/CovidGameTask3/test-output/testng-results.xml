@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-01T12:22:42 AEST" name="Default suite" finished-at="2021-09-01T12:22:42 AEST" duration-ms="5">
+    <groups>
+    </groups>
+    <test started-at="2021-09-01T12:22:42 AEST" name="Default test" finished-at="2021-09-01T12:22:42 AEST" duration-ms="5">
+      <class name="com.verizon.visp.IOT_Regression_API.IOT_B2B_API">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:com.verizon.visp.IOT_Regression_API.IOT_B2B_API@498d318c]" started-at="2021-09-01T12:22:42 AEST" name="driverSetup" finished-at="1970-01-01T10:00:00 AEST" duration-ms="-1630462962476" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'env' is required by BeforeSuite on method driverSetup but has not been marked @Optional or defined
+in C:\Users\yarag\AppData\Local\Temp\testng-eclipse--1418376578\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'env' is required by BeforeSuite on method driverSetup but has not been marked @Optional or defined
+in C:\Users\yarag\AppData\Local\Temp\testng-eclipse--1418376578\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+      </class> <!-- com.verizon.visp.IOT_Regression_API.IOT_B2B_API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

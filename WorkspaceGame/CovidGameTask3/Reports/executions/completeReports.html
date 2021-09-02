@@ -1,0 +1,175 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet"  href="../other_files/styles/jqplot.css"  />
+        <link type="text/css" rel="stylesheet"  href="../other_files/styles/content.css"  />
+        <link type="text/css" rel="stylesheet"   href="../other_files/styles/layout.css"  />
+        <link type="text/css" rel="stylesheet"  href="../other_files/styles/menu.css"  />
+
+        <link type="text/css" rel="stylesheet"  href="../other_files/styles/reportTable.css" />
+
+
+        <!--[if lte IE 9]><script language="javascript" type="text/javascript" src="../other_files/js/excanvas.js"></script><![endif]-->
+        <script  type="text/javascript" src="../other_files/js/jquery.min.js"></script>
+
+
+        <script  type="text/javascript" src="../other_files/js/jquery.jqplot.min.js"></script>
+        <script  type="text/javascript" src="../other_files/js/jqplot.barRenderer.min.js"></script>
+        <script  type="text/javascript" src="../other_files/js/jqplot.categoryAxisRenderer.min.js"></script>
+        <script  type="text/javascript" src="../other_files/js/jqplot.pointLabels.min.js"></script>
+        <script type="text/javascript" src="completeReports.js"></script>
+
+        <style type="text/css">
+            #chartSize{
+
+                height: 300px;
+                margin: 0 auto;
+
+                margin-top: 50px;
+                width: 85%;
+
+
+border-style: solid;
+border-width: 1px;
+border-color: #B0B0B0;
+
+                /* Shadow for boxes */
+                -moz-box-shadow: 0 0 10px #CCCCCC;
+                -ms-box-shadow: 0 0 10px #CCCCCC;
+                -webkit-box-shadow: 0 0 10px #CCCCCC;
+                box-shadow: 0 0 10px #CCCCCC;
+
+                zoom: 1;
+                filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=0),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=90),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=180),
+                    progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=2, Direction=270);
+
+                background-color: white;
+            }
+#resultTable tr:hover a { color:#DC143C;}#resultTable tr:hover{ color:#DC143C; }          </style>
+
+    </head>
+    <body>
+
+        <div id="container">
+
+
+            <div id="header">
+<img alt="logo" src="../other_files/images/philipsLogo.png" width="25%" height="100%"/>                <p>
+                </p>
+
+            </div>
+
+            <div id="content">
+                <div id="menuholder">
+                    <ul>
+                        <li id="first"><a href="../index.html" >Home</a></li>
+                        <li id="last"><a href="completeReports.html" >Complete Execution Reports</a></li>
+                    </ul>
+                </div>
+                <div id="mainContent">
+
+                    <div id="chartSize">
+                        <div id="chart" style="height: 270px; width: 100%; margin: 0 auto;margin-top: 20px;"></div>
+                    </div>
+
+
+
+                    <div id="resultTable" style="width:85%">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>S.No</th>
+                                    <th>Execution</th>
+<th>Execution Time</th>                                    <th>Total Test Cases</th>
+                                    <th>Total Passed</th>
+                                    <th>Total Failed</th>
+                                    <th>Total Not Run</th>
+                                    <th>Execution Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="Execution_1/testcaseReports.html">Execution 1</a></td>
+<td>8 min 43 sec</td><td>7</td><td>6    -    [85%]</td><td>1    -    [14%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:03 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td><a href="Execution_2/testcaseReports.html">Execution 2</a></td>
+<td>7 sec</td><td>4</td><td>3    -    [75%]</td><td>1    -    [25%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:03 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td><a href="Execution_3/testcaseReports.html">Execution 3</a></td>
+<td>7 sec</td><td>4</td><td>3    -    [75%]</td><td>1    -    [25%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:03 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>4</td>
+                                    <td><a href="Execution_4/testcaseReports.html">Execution 4</a></td>
+<td>36 sec</td><td>1</td><td>1    -    [100%]</td><td>0    -    [0%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:03 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>5</td>
+                                    <td><a href="Execution_5/testcaseReports.html">Execution 5</a></td>
+<td>7 sec</td><td>4</td><td>3    -    [75%]</td><td>1    -    [25%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:09 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>6</td>
+                                    <td><a href="Execution_6/testcaseReports.html">Execution 6</a></td>
+<td>34 sec</td><td>1</td><td>1    -    [100%]</td><td>0    -    [0%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:10 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>7</td>
+                                    <td><a href="Execution_7/testcaseReports.html">Execution 7</a></td>
+<td>6 sec</td><td>4</td><td>2    -    [50%]</td><td>2    -    [50%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:25 am</td>
+                                </tr>
+
+                                <tr>
+                                    <td>8</td>
+                                    <td><a href="Execution_8/testcaseReports.html">Execution 8</a></td>
+<td>5 sec</td><td>4</td><td>2    -    [50%]</td><td>2    -    [50%]</td><td>0    -    [0%]</td>                                    <td>03 Sep 2021 - 1:28 am</td>
+                                </tr>
+
+                            </tbody>
+                        </table>                 
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div id="footer">
+                <p>
+                    Copyright &COPY; 2021 QEdge. All rights reserved. 
+                    &nbsp; <a href="#" >Privacy Terms</a>
+                    &#x7C; <a href="#" >Terms of Use</a>
+                    <br/>
+                    <br/>
+                    Note: Best viewed in Google Chrome, Apple Safari, Opera and Mozilla Firefox
+                </p>
+                <p>
+
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>
+
+
