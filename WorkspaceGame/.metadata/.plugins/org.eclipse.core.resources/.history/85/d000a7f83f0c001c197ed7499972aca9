@@ -1,0 +1,126 @@
+SuperHeros_SuperVillain_Url=https://responsivefight.herokuapp.com/
+
+UserName = Sowmya
+
+# CreateTrustedApp
+covid19thegame_Url=https://supervillain.herokuapp.com/v1/user
+
+covid19thegame_Url_Post_Body0= {"username":"SowmyaVersion1.93","score":1000}
+covid19thegame_Url_Post_Header1=Content-Type=application/json
+
+
+covid19thegame_Url_Put_Body= {"username":"SowmyaVersion2.93","score":4000}
+covid19thegame_Url_Put_Header1=Content-Type=application/json
+
+
+covid19thegame_Url_Delete_Header1=Content-Type=application/json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mdn= 4083208174
+email_id= v7819857770@gmail.com
+email_password = vispsanjose
+otp= GoogleVoice
+googlevoice_url= https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hl=en&service=mail#identifier
+first_name= P
+last_name= Y
+
+#####Positive#####
+client_id=dc07a628-c196-4868-8c72-4107b132f330
+
+
+
+
+createtrustedapp_Header1=N1d1OWF5UWJKZm9sS1JmRTFUdW46VU9oWmJzbzRoZHNJRzdrSzdtOWU
+createtrustedapp_Header2=Content-Type=application/json
+createtrustedapp_Body={"redirectUris":["https://example.com","https://www.getpostman.com/oauth2/callback"],"clientName":"ThingSpace","clientUri":null,"logoUri":null,"contacts":[],"tosUri":null,"tokenEndpointAuthMethod":"SECRET_BASIC","scope":["openid","email","name","appmanagement","ts.account.wo","ts.account","ts.account.ro","ts.alert","ts.alert.ro","ts.application","ts.application.ro","ts.capability.ro","ts.object","ts.object.ro","ts.device","ts.device.ro","ts.event.ro","ts.model.ro","ts.location.ro","ts.place","ts.place.ro","ts.schedule","ts.schedule.ro","ts.serviceplan.ro","ts.tag","ts.tag.ro","ts.target","ts.target.ro","ts.trigger","ts.trigger.ro","ts.user","ts.user.ro","ts.user.wo","ts.thing","ts.thing.ro","ts.network","ts.network.ro","ts.configuration","ts.policy","ts.specification","ts.specification.ro","ts.data.ro","ts.notif","ts.dakota.inventory","ts.transformation","ts.transformation.ro","ts.runtime","ts.runtime.ro","ts.notebook","ts.notebook.ro"],"grantTypes":["authorization_code","implicit","client_credentials"],"responseTypes":["code","id_token","token"],"clientDefaultScope":[],"policyUri":null,"jwksUri":null,"applicationType":"WEB","sectorIdentifierUri":null,"subjectType":null,"requestObjectSigningAlg":null,"userInfoSignedResponseAlg":null,"userInfoEncryptedResponseAlg":null,"userInfoEncryptedResponseEnc":null,"idTokenSignedResponseAlg":null,"idTokenEncryptedResponseAlg":null,"idTokenEncryptedResponseEnc":null,"tokenEndpointAuthSigningAlg":null,"defaultMaxAge":null,"requireAuthTime":null,"initiateLoginUri":null,"postLogoutRedirectUri":null,"authorities":[],"accessTokenValiditySeconds":3600,"refreshTokenValiditySeconds":0,"resourceIds":[],"clientDescription":"This is a Trusted App on MobileID server for ThingSpace Portal.","reuseRefreshToken":true,"dynamicallyRegistered":false,"allowIntrospection":true,"idTokenValiditySeconds":600,"isPinOptional":true,"status":true,"clientLogo":null,"mimeType":null,"imageName":null,"requestObjectSigningCert":null,"cpub":null}
+createtrustedapp_NBody={"redirectUris":["https://example.com","https://www.getpostman.com/oauth2/callback"],"clientName":"ThingSpace","clientUri":null,"logoUri":null,"contacts":[],"tosUri":null,"tokenEndpointAuthMethod":"SECRET_BASIC","grantTypes":["authorization_code","implicit","client_credentials"],"responseTypes":["code","id_token","token"],"clientDefaultScope":[],"policyUri":null,"jwksUri":null,"applicationType":"WEB","sectorIdentifierUri":null,"subjectType":null,"requestObjectSigningAlg":null,"userInfoSignedResponseAlg":null,"userInfoEncryptedResponseAlg":null,"userInfoEncryptedResponseEnc":null,"idTokenSignedResponseAlg":null,"idTokenEncryptedResponseAlg":null,"idTokenEncryptedResponseEnc":null,"tokenEndpointAuthSigningAlg":null,"defaultMaxAge":null,"requireAuthTime":null,"initiateLoginUri":null,"postLogoutRedirectUri":null,"authorities":[],"accessTokenValiditySeconds":3600,"refreshTokenValiditySeconds":0,"resourceIds":[],"clientDescription":"This is a Trusted App on MobileID server for ThingSpace Portal.","reuseRefreshToken":true,"dynamicallyRegistered":false,"allowIntrospection":true,"idTokenValiditySeconds":600,"isPinOptional":true,"status":true,"clientLogo":null,"mimeType":null,"imageName":null,"requestObjectSigningCert":null,"cpub":null}
+
+#0 Access Token
+accesstoken_gen_Url= https://auth.svcs.verizon.com:22790/vzconnect/authorize?response_type=code&client_id=f9f9de0d-a179-4c57-953a-b09466c6b029&redirect_uri=https://example.com&scope=openid_appmanagement
+accesstoken_gen_Url1=https://auth.svcs.verizon.com:22790/vzconnect/authorize?response_type=code&client_id=
+accesstoken_gen_Url2=&redirect_uri=https://example.com&scope=openid+appmanagement
+accesstoken_Url=https://auth.svcs.verizon.com:22790/vzconnect/token
+accesstoken_Header=Content-Type=application/x-www-form-urlencoded
+#accesstoken_Body1={"grant_type":"authorization_code","client_id":"78a3aad3-f781-4c16-a1a4-77544b67842e","client_secret":"clu1WusrDICkPTvO5fTvYnI_9hffuPc6tjrXxxQkuYUbE7YyIZoX6hI95tMY6W-w9RfusUymsOOkfKNv_iryoQ"}
+#accesstoken_Body2={"redirect_uri":"https://www.getpostman.com/oauth2/callback"}
+
+#Access Token - WAPS
+accesstoken_genwaps_Url1=https://auth.svcs.verizon.com:22790/vzconnect/authorize?response_type=code&client_id=
+accesstoken_genwaps_Url2=&redirect_uri=https://example.com
+
+#01 CreateDeveloper_API
+createdeveloperapp_Url= https://auth.svcs.verizon.com:22790/vzconnect/client/apps
+createdeveloperapp_Header=Content-Type=application/json
+createdeveloperapp_Body= {"clientName":"ThingSpace Developer App {{thingspace.timestamp}}","scope":["openid","name"],"grantTypes":["authorization_code","implicit"],"responseTypes":["id_token","token","code"],"authorities":[],"accessTokenValiditySeconds":3600,"clientDescription":"This is a test app description.","allowIntrospection":true,"isPinOptional":true}
+
+#02 Get_Developer_API 
+getdeveloperapp_Url= https://auth.svcs.verizon.com:22790/vzconnect/client/apps/
+getdeveloperapp_Header=Authorization=
+
+#03 Update_Developer_API
+updateapp_Url= https://auth.svcs.verizon.com:22790/vzconnect/client/apps/
+updateapp_Header= Content-Type=application/json
+
+#04 UserInfoEndPoint
+getUserInfo_Url= https://api.yourmobileid.com/userinfo
+getUserInfo_Header = Authorization=
+#getUserInfo_SubVal= 21370374003643216-393852
+
+#05 Delete_Developer_API
+deleteUserInfo_Url= https://auth.svcs.verizon.com:22790/vzconnect/client/apps/
+deleteUserInfo_Header = Authorization=
+
+#####Negative#####
+
+#06 Get_Developer_API_Negative
+#getdeveloperapp_NegHeader= Authorization=eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE0OTM5ODgzNTksImF1ZCI6WyIwNGY2YTJkMy03YmFhLTQxMmItOTAwMS1iMzdlZDk0YzM4NTkiXSwiaXNzIjoiaHR0cHM6XC9cL2F1dGguc3Zjcy52ZXJpem9uLmNvbToyMjc5MFwvdnpjb25uZWN0XC8iLCJqdGkiOiIwNmY2NGQwMC0wMzliLTQxZWEtYWM4OS1jY2NiNThjMDA1MjMiLCJpYXQiOjE0OTM5ODQ3NTl9.I5gRsM5hntdhzulZtFQwTKIldYG5aSfkVTghtsLg1HLkOINLZPinSCHuqYk7lvvk1rn-KqLmyhNYgg9MSvQz4y9DUprJp9F_StgQDfQ3seUspSp8-6Mygu1vS6sSK92-hLwt1vbfFnazdzuJ9zF2Aso69oHdLgJx8YxkwM-xo61dB9HMW82nlelSI-FZvRItkld_4s2DiW1nXiN593e7ZO_J60QJ5k9bWKm1Wsz88H6lUaPU5YVIKjMTVR5CABH6VCWIZLqvKh7c0grEDML7cWOtRzKk3k9duBLN7Zp22gawhrZOrpztveoCB_iWRubu55eaWxR7mfdFdfCsVEXE3w
+getdeveloperapp_NegHeader= Authorization=
+
+#07 Update_Developer_API_Negative
+updatedeveloperapp_NegHeader= Authorization=eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE0OTM5ODgzNTksImF1ZCI6WyIwNGY2YTJkMy03YmFhLTQxMmItOTAwMS1iMzdlZDk0YzM4NTkiXSwiaXNzIjoiaHR0cHM6XC9cL2F1dGguc3Zjcy52ZXJpem9uLmNvbToyMjc5MFwvdnpjb25uZWN0XC8iLCJqdGkiOiIwNmY2NGQwMC0wMzliLTQxZWEtYWM4OS1jY2NiNThjMDA1MjMiLCJpYXQiOjE0OTM5ODQ3NTl9.I5gRsM5hntdhzulZtFQwTKIldYG5aSfkVTghtsLg1HLkOINLZPinSCHuqYk7lvvk1rn-KqLmyhNYgg9MSvQz4y9DUprJp9F_StgQDfQ3seUspSp8-6Mygu1vS6sSK92-hLwt1vbfFnazdzuJ9zF2Aso69oHdLgJx8YxkwM-xo61dB9HMW82nlelSI-FZvRItkld_4s2DiW1nXiN593e7ZO_J60QJ5k9bWKm1Wsz88H6lUaPU5YVIKjMTVR5CABH6VCWIZLqvKh7c0grEDML7cWOtRzKk3k9duBLN7Zp22gawhrZOrpztveoCB_iWRubu55eaWxR7mfdFdfCsVEXE3w
+
+#08 Delete_Developer_API_Negative
+deletedeveloperapp_NegHeader= Authorization=eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE0OTM5ODgzNTksImF1ZCI6WyIwNGY2YTJkMy03YmFhLTQxMmItOTAwMS1iMzdlZDk0YzM4NTkiXSwiaXNzIjoiaHR0cHM6XC9cL2F1dGguc3Zjcy52ZXJpem9uLmNvbToyMjc5MFwvdnpjb25uZWN0XC8iLCJqdGkiOiIwNmY2NGQwMC0wMzliLTQxZWEtYWM4OS1jY2NiNThjMDA1MjMiLCJpYXQiOjE0OTM5ODQ3NTl9.I5gRsM5hntdhzulZtFQwTKIldYG5aSfkVTghtsLg1HLkOINLZPinSCHuqYk7lvvk1rn-KqLmyhNYgg9MSvQz4y9DUprJp9F_StgQDfQ3seUspSp8-6Mygu1vS6sSK92-hLwt1vbfFnazdzuJ9zF2Aso69oHdLgJx8YxkwM-xo61dB9HMW82nlelSI-FZvRItkld_4s2DiW1nXiN593e7ZO_J60QJ5k9bWKm1Wsz88H6lUaPU5YVIKjMTVR5CABH6VCWIZLqvKh7c0grEDML7cWOtRzKk3k9duBLN7Zp22gawhrZOrpztveoCB_iWRubu55eaWxR7mfdFdfCsVEXE3w

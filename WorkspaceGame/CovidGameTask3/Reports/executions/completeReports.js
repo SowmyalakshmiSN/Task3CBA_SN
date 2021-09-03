@@ -1,8 +1,8 @@
 $(document).ready(function(){
-var s1 = [1,3,1,2,2];
-var s2 = [0,1,0,2,2];
+var s1 = [3,3,3,3,3];
+var s2 = [1,1,1,1,1];
 var s3 = [0,0,0,0,0];
-var ticks = [4,5,6,7,8];plot2 = $.jqplot('chart', [s1, s2,s3], {animate:true,
+var ticks = [19,20,21,22,23];plot2 = $.jqplot('chart', [s1, s2,s3], {animate:true,
 seriesDefaults: { renderer:$.jqplot.BarRenderer, pointLabels: { show: true  } },
 series: [ { label: 'Passed Test Cases'  }, { label: 'Failed Test Cases'  }, { label: 'Skipped Test Cases'   }  ],
 axes: { xaxis: {label: 'Executions', renderer: $.jqplot.CategoryAxisRenderer,

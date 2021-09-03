@@ -1,0 +1,16 @@
+SuperHeros_SuperVillain_Url=https://responsivefight.herokuapp.com/
+
+UserName = Sowmya
+
+# CreateTrustedApp
+covid19thegame_Url=https://supervillain.herokuapp.com/v1/user
+
+covid19thegame_Url_Post_Body0= {"username":"SowmyaVersion1.95","score":1000}
+covid19thegame_Url_Post_Header1=Content-Type=application/json
+
+
+covid19thegame_Url_Put_Body= {"username":"SowmyaVersion2.95","score":4000}
+covid19thegame_Url_Put_Header1=Content-Type=application/json
+
+
+covid19thegame_Url_Delete_Header1=Content-Type=application/json

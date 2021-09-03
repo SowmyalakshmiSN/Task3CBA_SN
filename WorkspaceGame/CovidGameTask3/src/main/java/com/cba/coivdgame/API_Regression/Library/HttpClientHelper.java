@@ -29,6 +29,8 @@ import org.apache.http.protocol.HTTP;
 import org.apache.http.protocol.HttpContext;
 import org.apache.http.util.EntityUtils;
 
+import com.reports.CustomReporter;
+
 
 /**
  * The Class HttpClientHelper.
@@ -192,7 +194,7 @@ public class HttpClientHelper
     public synchronized static String MygetUrl (String url, String headValue, List<String> list)
     {
         String result;
-		System.out.println("Hello in MYgeturl");
+        System.out.println("This MygetUrl : ");
         try
         {        
             HttpGet httpGet = new HttpGet (url);
@@ -234,7 +236,7 @@ public class HttpClientHelper
     public synchronized static String MygetUrlHTML (String url, String headValue, List<String> list)
     {
         String result;
-		System.out.println("Hello in MYgeturl");
+        System.out.println("This MygetUrlHTML : ");
         try
         {        
             HttpGet httpGet = new HttpGet (url);
@@ -278,7 +280,7 @@ public class HttpClientHelper
     public synchronized static String MygetUrlN (String url, String headValue, List<String> list)
     {
         String result;
-		//System.out.println("Hello in MYgeturlN");
+        System.out.println("This MygetUrlN : ");
         try
         {        
         	//System.out.println("Url in MygetUrlN 1:"+url);
@@ -322,15 +324,18 @@ public class HttpClientHelper
     	String result;
     	try
         {        
+    		System.out.println("This MygetUrl : ");
     		HttpGet httpGet = new HttpGet (url);                    
             Logging.info ("Executing request: " + httpGet.getRequestLine ());
            
             result = execute (httpGet);
             System.out.println("Response From API : "+result);
+            CustomReporter.log("Response From API : "+result);
         } 
         catch (Exception e)
         {
             Logging.info ("Error: " + e.getMessage ());
+            //CustomReporter.errorLog("Error: " + e.getMessage ());
             throw new RuntimeException (e.getCause ());
         }
         return result;
@@ -548,11 +553,13 @@ public class HttpClientHelper
             HttpDelete httpDelete = new HttpDelete (url);
             Logging.info ("Executing request: " + httpDelete.getRequestLine ());
             result = execute (httpDelete);
-            System.out.println("Response From API : "+result);
+           System.out.println("Response From API : "+result);
+          //  CustomReporter.log("Response From API : "+result);
         } 
         catch (Exception e) 
         {
             Logging.info ("Error: " + e.getMessage ());
+            CustomReporter.errorLog(e.getMessage ());
             throw new RuntimeException (e.getCause ());
         }
         return result;
@@ -655,7 +662,7 @@ public class HttpClientHelper
             for (Header header : headers)
             {
             	httpPut.addHeader (header);
-            	System.out.println("Added Header : "+header);
+            	//System.out.println("Added Header : "+header);
             }
          
             //System.out.println("Body in Put :: "+json);
@@ -700,7 +707,7 @@ public class HttpClientHelper
            
             //System.out.println("response in Execute: "+response);
             int status = response.getStatusLine ().getStatusCode ();
-           // System.out.println("Status in Execute: "+status);
+            System.out.println("Status in Execute: "+status);
             if (response.getEntity () != null)
             {
                 result = EntityUtils.toString (response.getEntity ());
@@ -774,7 +781,8 @@ public class HttpClientHelper
            
             //System.out.println("response in Execute: "+response);
             int status = response.getStatusLine ().getStatusCode ();
-            //System.out.println("Status in Execute: "+status);
+            
+            System.out.println("Status in Execute: "+status);
             if (response.getEntity () != null)
             {
                 result = EntityUtils.toString (response.getEntity ());

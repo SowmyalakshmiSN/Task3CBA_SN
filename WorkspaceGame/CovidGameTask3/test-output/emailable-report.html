@@ -8,30 +8,26 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,609</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.verizon.visp.IOT_Regression_API.IOT_B2B_API</td><td><a href="#m0">driverSetup</a></td><td rowspan="1">1630462962476</td><td rowspan="1">-1630462962476</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cba.covidgame.Regression_API.CBA_API</td><td><a href="#m0">GetUserDetailsCovidGame</a></td><td rowspan="1">1630624316332</td><td rowspan="1">2809</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.cba.covidgame.Regression_API.CBA_API</td><td><a href="#m1">DeleteUserDetailsCovidGame</a></td><td rowspan="1">1630624322945</td><td rowspan="1">960</td></tr><tr class="passedeven"><td><a href="#m2">PostCreateUserCovidGame</a></td><td rowspan="1">1630624319151</td><td rowspan="1">1182</td></tr><tr class="passedeven"><td><a href="#m3">PutUserDetailsCovidGame</a></td><td rowspan="1">1630624320336</td><td rowspan="1">2607</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.verizon.visp.IOT_Regression_API.IOT_B2B_API#driverSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;env&apos; is required by BeforeSuite on method driverSetup but has not been marked @Optional or defined
-in C:\Users\yarag\AppData\Local\Temp\testng-eclipse--1418376578\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.cba.covidgame.Regression_API.CBA_API#GetUserDetailsCovidGame</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL: https://supervillain.herokuapp.com/v1/userVerified EndPoint Successfully<br/>Response From API : [{"user_id":15300,"username":"SowmyaVersion19.1","score":4000},{"user_id":15242,"username":"Sowmya5.1","score":4000},{"user_id":15246,"username":"Sowmya5.2","score":4000},{"user_id":15314,"username":"SowmyaVersion2.95","score":4000},{"user_id":15312,"username":"SowmyaVersion2.94","score":4000},{"user_id":15310,"username":"SowmyaVersion2.93","score":4000},{"user_id":15305,"username":"SowmyaVersion2.922","score":4000},{"user_id":15262,"username":"Sowmya5.3","score":4000},{"user_id":15237,"username":"Sowmya5","score":4000},{"user_id":15302,"username":"SowmyaVersion2.92","score":4000},{"user_id":15282,"username":"Sowmya5.31","score":4000},{"user_id":15301,"username":"SowmyaVersion2.9","score":4000},{"user_id":15261,"username":"Sowmya3.9","score":1000},{"user_id":15236,"username":"Sowmya3.6","score":1000},{"user_id":15241,"username":"Sowmya3.7","score":1000},{"user_id":15245,"username":"Sowmya3.8","score":1000},{"user_id":15290,"username":"","score":1000},{"user_id":15299,"username":"SowmyaVersion19","score":1000},{"user_id":15303,"username":"SowmyaVersion1.91","score":1000},{"user_id":15304,"username":"SowmyaVersion1.921","score":1000},{"user_id":15309,"username":"SowmyaVersion1.93","score":1000},{"user_id":15311,"username":"SowmyaVersion1.94","score":1000},{"user_id":15313,"username":"SowmyaVersion1.95","score":1000},{"user_id":15286,"username":"asdadaSD","score":880},{"user_id":15263,"username":"Sowmya","score":600},{"user_id":15287,"username":"svfdbfbfb","score":480},{"user_id":15274,"username":"fgbfbfgbfg","score":390},{"user_id":15292,"username":"Ig9lZ43lmE","score":100},{"user_id":15297,"username":"TR4qKCke19","score":100},{"user_id":15298,"username":"qg9datdfOW","score":100},{"user_id":15289,"username":"svdbdbdfb","score":100},{"user_id":15295,"username":"csgeaLb4CJ","score":100},{"user_id":15296,"username":"1QE55V6SSq","score":100},{"user_id":15294,"username":"Sowmyalaks1","score":1},{"user_id":15284,"username":"sdsfsvvs","score":0},{"user_id":15272,"username":"ffdsbfdbnn","score":0},{"user_id":15273,"username":"dfvsfbdfnd","score":0},{"user_id":15277,"username":"LKUMy0l48N","score":0},{"user_id":15288,"username":"ucpcmlhlE9","score":0},{"user_id":15271,"username":"LvXXcH3EOI","score":0},{"user_id":15283,"username":"NFoeQWq5LF","score":0},{"user_id":15285,"username":"aasdadas","score":0},{"user_id":15268,"username":"NRhWTcr2Jh","score":0},{"user_id":15269,"username":"LjF29yjl9h","score":0},{"user_id":15291,"username":"Sowmyalaks","score":-1}]</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:187)
+	at com.google.gson.Gson.fromJson(Gson.java:805)
+	at com.google.gson.Gson.fromJson(Gson.java:770)
+	at com.google.gson.Gson.fromJson(Gson.java:719)
+	at com.google.gson.Gson.fromJson(Gson.java:691)
+	at com.cba.covidgame.Regression_API.CBA_API.GetUserDetailsCovidGame(CBA_API.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:387)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	... 33 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.cba.covidgame.Regression_API.CBA_API#DeleteUserDetailsCovidGame</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL: https://supervillain.herokuapp.com/v1/userVerified EndPoint Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.cba.covidgame.Regression_API.CBA_API#PostCreateUserCovidGame</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL: https://supervillain.herokuapp.com/v1/userVerified EndPoint Successfully<br/>Added Static Header :Content-Type=application/json Successfully<br/>Successfully Captured Response For POST URL: https://supervillain.herokuapp.com/v1/user And Stored In Respective Data Objects</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.cba.covidgame.Regression_API.CBA_API#PutUserDetailsCovidGame</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">URL: https://supervillain.herokuapp.com/v1/userVerified EndPoint Successfully<br/>Added Static Header :Content-Type=application/json Successfully<br/>Successfully Captured Response For PUT URL: https://supervillain.herokuapp.com/v1/user And Stored In Respective Data Objects</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
